@@ -1,0 +1,352 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header img {
+    height: 44px;
+   margin-left: 43.5px;
+}
+body{
+	 font-family: Arial,Helvetica,Roboto,sans-serif;
+	background: #333;
+	color: #fff;
+	line-height: 1.6;
+	height: 100vh;
+	overflow-x: hidden;
+	
+}
+
+
+
+header {
+    background-color:grey;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+}
+header * {
+    display: inline;
+}
+header li {
+    margin: 20px;
+    font-family: Arial,Helvetica,Roboto,sans-serif;
+}
+header li a {
+    color: black;
+    text-decoration: none;
+    font-family: Arial,Helvetica,Roboto,sans-serif;
+}
+
+header ul li a:hover{
+	color: #3377FF;
+}
+
+h1.impact {
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 55px;
+}
+
+h1{
+	margin-top: 100px;
+}
+
+.container{
+	position: relative;
+	width: 100%;
+	height: 100%; 
+	overflow-y: scroll;
+	scroll-behavior: smooth;
+	scroll-snap-type: y mandatory;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+section{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: left;
+	width: 100%;
+	height: 100vh;
+	scroll-snap-align: center;
+
+}
+
+
+section h1{
+	font-size: 4rem;
+	color: indigo;
+	
+}
+
+section p{
+        font-size: 20px;
+    line-height: inherit;
+    margin-bottom: inherit;
+    font-family: inherit;
+	width: 37%;
+	color: #fff;
+	margin-top: 46px;
+	margin-right: 900px;
+   
+}
+
+}
+
+main p.impact{
+	margin-top: 
+}
+
+section#home{
+  background-image: url(');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+    
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+section#about{
+	
+
+    background-image: url('https://www.bmw-m.com/content/dam/bmw/marketBMW_M/common/topics/magazine-article-pool/2019/concorso-d-eleganza-2019/concorso-d-eleganza-2019-sd-03.jpg/_jcr_content/renditions/cq5dam.resized.img.1185.large.time1558700445018.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+    
+   
+}
+section#services{
+	
+  background-image: url('https://www.bmw-m.com/content/dam/bmw/marketBMW_M/common/topics/magazine-article-pool/2019/m2-futura/bmw-m2-futura-2000-home-teaser-1.jpg/_jcr_content/renditions/cq5dam.resized.img.1680.large.time1581618606967.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+  margin-top: 1px;
+}
+section#location{
+	
+    background-image: url('https://wallpaperlayer.com/img/2015/9/plain-white-wallpaper-74-117-hd-wallpapers.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+
+}
+
+
+.location{
+  display: flex;
+  width: 26%;
+  height: 55%;
+  margin: 0 auto;
+  background: rgba(0,0,0,0.65);
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  margin-right: 527px;
+  margin-top: 10px;
+  
+}
+
+.input-typ{
+  display: flex;
+  flex-direction: column;
+  margin-right: -17%;
+  color: white;
+  
+  
+}
+
+.input-typ{
+  width: 128%;
+}
+
+.input-typ .input{
+  margin: 10px 0;
+  background: transparent;
+  border: 0px;
+  border-bottom: 2px solid #fff;
+  padding: 10px;
+  color: #fff;
+  width: 80%;
+  }
+  button[id="location"] {
+    background: indigo;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    border:none;
+    width: 40%;
+    margin-left: 99px;
+    margin-top: 20px;
+ 
+}
+
+
+section#contact{
+
+    background-image: url('https://www.elsetge.cat/myimg/f/10-109139_austin-yellow-bmw-m4-4ksimilar-car-wallpapers-wallpaper.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+
+}
+
+
+section#social{
+
+    background-image: url('https://cpo.bmwusa.com/content/images/home-tile-i3-1900.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+
+}
+.media{
+  display: flex;
+  width: 20%;
+  height: 4.7%;
+  margin: 0 auto;
+  background: rgba(0,0,0,0.65);
+  padding: 25px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  margin-right: 570px;
+  margin-top: 30px;
+  align-items: center;
+  
+}
+i{
+  margin-right: 40px;
+  color: #fff;
+  
+}
+
+
+
+
+section#home p{
+	font-size: 20px;
+margin-top: 200px;
+margin-right: 800px;
+font-family:Impact, Charcoal, sans-serif;
+  font-size: 55px;
+  color: #fff;
+
+}
+
+
+
+
+input[type=submit]:hover {
+  background-color: rgba(30, 144, 255,.5);
+}
+
+
+
+section#services h1{
+	margin-right:900px; 
+}
+
+section#services ul{
+	margin-right: 780px;
+	margin-top: 50px;
+
+}
+
+section#contact h1{
+	margin-left: 750px;
+}
+section#about h1{
+	margin-right: 930px;
+}
+
+
+
+  
+  .contact-form{
+    display: flex;
+    max-width: 550px;
+    margin: 0 auto;
+    background: rgba(0,0,0,0.8);
+    padding: 30px;
+    border-radius: 6.5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    margin-right: 75px;
+    margin-top: 27px;
+    width: 120%;
+  }
+  
+  .input-fields{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4%;
+  }
+  
+  .input-fields,
+  .msg{
+    width: 48%;
+  }
+  
+  .input-fields .input,
+  .msg textarea{
+    margin: 10px 0;
+    background: transparent;
+    border: 0px;
+    border-bottom: 2px solid #fff;
+    padding: 10px;
+    color: #fff;
+    width: 80%;
+    
+  }
+  
+  .msg textarea{
+    height: 191px;
+    width: 250px;
+  }
+  
+  ::-webkit-input-placeholder {
+    
+    color: #fff;
+  }
+  
+ button[id=contact] {
+      background: #dd3947;
+      text-align: center;
+      padding: 15px;
+      border-radius: 5px;
+      color: #fff;
+      text-decoration: none;
+      border:none;
+      width: 100%;
+      margin-left: -140px;
+      margin-top: 40px;
+   
+  }
+  
+  
+  @media screen and (max-width: 600px){
+    .contact-form{
+      flex-direction: column;
+    }
+    .msg textarea{
+      height: 80px;
+    }
+    .input-fields,
+    .msg{
+      width: 100%;
+    }
+ 
+
+

@@ -1,0 +1,285 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header img {
+    height: 44px;
+   margin-left: 43.5px;
+}
+body{
+	 font-family: Arial,Helvetica,Roboto,sans-serif;
+	background: #333;
+	color: #fff;
+	line-height: 1.6;
+	height: 100vh;
+	overflow-x: hidden;
+	
+}
+
+
+
+header {
+    background-color:#808080;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+}
+header * {
+    display: inline;
+}
+header li {
+    margin: 20px;
+    font-family: Arial,Helvetica,Roboto,sans-serif;
+}
+header li a {
+    color: black;
+    text-decoration: none;
+    font-family: Arial,Helvetica,Roboto,sans-serif;
+}
+
+header ul li a:hover{
+	color: #3377FF;
+}
+
+h1.impact {
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 55px;
+}
+
+h1{
+	margin-top: 100px;
+}
+
+.container{
+	position: relative;
+	width: 100%;
+	height: 100%; 
+	overflow-y: scroll;
+	scroll-behavior: smooth;
+	scroll-snap-type: y mandatory;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+section{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: left;
+	width: 100%;
+	height: 100vh;
+	scroll-snap-align: center;
+
+}
+
+
+section h1{
+	font-size: 4rem;
+	color: black;
+	
+}
+
+
+}
+
+main p.impact{
+	margin-top: 
+}
+
+section#home{
+  background-image: url('https://wallpaperlayer.com/img/2015/9/plain-white-wallpaper-74-117-hd-wallpapers.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+    
+}
+section#about{
+	
+
+    background-image: url('https://www.bmw-m.com/content/dam/bmw/marketBMW_M/common/topics/magazine-article-pool/2019/concorso-d-eleganza-2019/concorso-d-eleganza-2019-sd-03.jpg/_jcr_content/renditions/cq5dam.resized.img.1185.large.time1558700445018.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+    
+   
+}
+section#services{
+	
+  background-image: url('https://www.bmw-m.com/content/dam/bmw/marketBMW_M/common/topics/magazine-article-pool/2019/m2-futura/bmw-m2-futura-2000-home-teaser-1.jpg/_jcr_content/renditions/cq5dam.resized.img.1680.large.time1581618606967.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+section#location{
+	
+    background-image: url('https://www.bmw-m.com/content/dam/bmw/marketBMW_M/common/all-models/m-automobile/m8grancoupe/bmw-m-automobile-all-models-overview.jpg/_jcr_content/renditions/cq5dam.resized.img.1680.large.time1570785694992.jpghttps://www.bmw-m.com/content/dam/bmw/marketBMW_M/common/all-models/m-automobile/m8grancoupe/bmw-m-automobile-all-models-overview.jpg/_jcr_content/renditions/cq5dam.resized.img.1680.large.time1570785694992.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+
+}
+
+
+section#contact{
+
+    background-image: url('https://www.elsetge.cat/myimg/f/10-109139_austin-yellow-bmw-m4-4ksimilar-car-wallpapers-wallpaper.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+
+}
+
+
+section#social{
+
+    background-image: url('https://cpo.bmwusa.com/content/images/home-tile-i3-1900.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+
+}
+
+section#home p{
+	font-size: 20px;
+margin-top: 200px;
+margin-right: 800px;
+font-family:Impact, Charcoal, sans-serif;
+  font-size: 55px;
+  color: #fff;
+
+}
+.login-container h2 {
+    margin-bottom: 30px;
+    color: white;
+}
+
+::placeholder{
+	color: white;
+}
+ h2 {
+    font-family: Arial,Helvetica,Roboto,sans-serif;
+    margin-top: 20px!important;
+    color: white;
+}
+
+input[type=text]{
+
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-color: rgba(255,255,255, 0.3);
+  background-color: rgba(255,255,255, 0.3);
+  color: #fff;
+  border-radius: 4px;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  border-color: rgba(255,255,255, 0.3);
+  background-color: rgba(255,255,255, 0.3);
+}
+
+button[id=service] {
+  width: 200%;
+  background-color: rgba(220, 20, 60,.5);
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 25px
+   display: flex;
+    justify-content: center; 
+}
+
+input[type=submit] {
+  width: 60%;
+  background-color: rgba(220, 20, 60,.5);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 170px; 
+  margin-top: 40px;
+}
+
+input[type=submit]:hover {
+  background-color: rgba(30, 144, 255,.5);
+}
+
+button{
+	width: 40%;
+	color: #fff;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 40px;
+    float: left;
+    font-weight: 700;
+    padding-right: 4px;
+    margin-left: 0;
+    font-size: 10px;
+    line-height: 36px;
+    background-color: rgba(225,225,225, 0.6);
+    border-color: rgba(225,225,225, 0.8);
+
+
+}
+
+
+
+button[name=contact]{
+	background-color: rgba(220, 20, 60,.5);
+	height: 67.5px;
+	width: 23%;
+	margin-top: 31px;
+	margin-right: 1000px;
+	margin-left: 69.9%;
+
+}
+
+section#services h1{
+	margin-right:900px; 
+}
+
+section#services ul{
+	margin-right: 780px;
+	margin-top: 50px;
+
+}
+
+input.contact{
+
+  width: 36%;
+  padding: 12px 20px;
+  margin-left: 850px;
+  box-sizing: border-box;
+  border-color: rgba(255,255,255, 0.3);
+  background-color: rgba(255,255,255, 0.3);
+  color: #fff;
+  border-radius: 4px;
+}
+
+section#contact h1{
+	margin-left: 750px;
+}
+section#about h1{
+	margin-right: 930px;
+}
